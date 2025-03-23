@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your's Kitchen</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Your's Kitchen</h1>
+    <input type="text" id="ingredientInput" placeholder="Enter ingredients (e.g., chicken, rice)">
+    <button id="searchButton">Find Recipes</button>
+     <!-- Reset Button -->
+     <button id="resetButton">Reset</button>
+     <section>
+      <a href="javascript:history.back()" class="back-button">Back</a>
+  </section>
+     <!-- Search History Section -->
+     <div id="searchHistory" class="search-history">
+        <h3>Recent Searches:</h3>
+        <ul id="historyList"></ul>
+      </div>
+    <div id="recipes" class="recipes"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
